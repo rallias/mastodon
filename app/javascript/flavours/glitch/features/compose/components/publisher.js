@@ -16,7 +16,7 @@ import { maxChars } from 'flavours/glitch/initial_state';
 //  Messages.
 const messages = defineMessages({
   publish: {
-    defaultMessage: 'Publish',
+    defaultMessage: 'Toot',
     id: 'compose_form.publish',
   },
   publishLoud: {
