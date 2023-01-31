@@ -91,7 +91,7 @@ class ActivityPub::ProcessAccountService < BaseService
 
     @account.save_with_optional_media!
 
-    AccountsIndex.import! @account
+    AccountsIndex.import! @account if Chewy.enabled?
   end
 
   def set_immediate_protocol_attributes!
