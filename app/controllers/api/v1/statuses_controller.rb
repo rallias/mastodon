@@ -131,7 +131,7 @@ class Api::V1::StatusesController < Api::BaseController
       :visibility,
       :language,
       :scheduled_at,
-      :quote_id
+      :quote_id,
       :content_type,
       media_ids: [],
       media_attributes: [
