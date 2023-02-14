@@ -286,9 +286,9 @@ const sortHashtagsByUse = (state, tags) => {
     if (usedA === usedB) {
       return 0;
     } else if (usedA && !usedB) {
-      return 1;
-    } else {
       return -1;
+    } else {
+      return 1;
     }
   });
 };
